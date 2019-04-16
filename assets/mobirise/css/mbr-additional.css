@@ -1486,9 +1486,7 @@ body {
   background-image: url("../../../assets/images/mbr-1791x1080.jpg");
   
 }
-.cid-qIihRCxHJF strong {   font-weight:bold;         
-  color: black;
-}
+
 
 .cid-qIicQ8Vcwz H2 {
   color: #ffffff;
@@ -1515,6 +1513,11 @@ body {
 }
 .cid-qIihRCxHJF .mbr-section-subtitle {
   color: #232323;
+}
+.cid-qIihRCxHJF strong 
+{ 
+           
+        color: black;
 }
 .cid-qIihRCxHJF h3 {
   
