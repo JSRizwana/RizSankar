@@ -11,23 +11,30 @@ body {
  
 }
 .mbr-section-title {
-   font-style: italic;
+   font-style: normal;
   line-height: 1.2;
-  color:red;
-}
-.mbr-section-subtitle {
-  line-height: 1.3;
-  color:deeppink;
+  color:#e53d58;
+    }
+.mbr-section-title1 {
+  font-family: 'Tangerine';
+    font-size: 5rem;
   font-weight:bold;
-   font-style: italic;
+   color:black;
+    }
+.mbr-section-subtitle {
+     font-style:normal;
+  line-height: 1.2;
+  color:#ff00ca/*#007777*/;/*#14b89b;*/
+  font-weight:bold;
   }
 .mbr-text {
-  font-style: italic;
+  font-style: normal;
   line-height: 1.6;
+  color:#fccd22;
 }
 .display-1 {
   font-family: 'Tangerine', handwriting;
-  font-size: 6rem;
+  font-size: 5rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 9.6rem;
@@ -35,9 +42,12 @@ body {
 .display-2 {
   font-family: 'Tangerine', handwriting;
   font-size: 3rem;
+  font-weight:bold;
 }
 .display-2 > .mbr-iconfont {
   font-size: 4.8rem;
+  
+  
 }
 .display-4 {
   font-family: 'Rubik', sans-serif;
@@ -54,11 +64,56 @@ body {
   font-size: 2.88rem;
 }
 .display-7 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  /*font-family: 'Rubik', sans-serif;
+  font-style:normal;
+  font-size: 1rem;*/
+   font-family: 'Tangerine', handwriting;
+  font-size: 4rem;
+  font-weight:bold;
+  color:red;
+  
+  
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.6rem;
+  /*font-size: 1.6rem;*/
+   font-size: 4.8rem;
+     color:red;
+  
+}
+
+.display-8 {
+  /*font-family: 'Rubik', sans-serif;
+  font-style:normal;
+  font-size: 1rem;*/
+   font-family: Rubik,cursive;
+  font-size: 2rem;
+  /*font-weight:bold;*/
+  color:#00ff00;
+  
+  
+}
+.display-8 > .mbr-iconfont {
+  /*font-size: 1.6rem;*/
+   font-size: 3rem;
+     color:red;
+  
+}
+.display-9 {
+  /*font-family: 'Rubik', sans-serif;
+  font-style:normal;
+  font-size: 1rem;*/
+   font-family: 'Times New Roman', cursive;
+  font-size: 1.4rem;
+  
+  color:#f8697f;
+  
+  
+}
+.display-9 > .mbr-iconfont {
+  /*font-size: 1.6rem;*/
+   font-size: 4.8rem;
+     color:red;
+  
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -1379,9 +1434,9 @@ body {
   display: none;
 }
 .cid-qIia8mgjVj {
-  padding-top:60px;
-  padding-bottom:60px;
-  background-image: url("../../../assets/images/preview.jpg");/*mbr-1-1620x1080.jpg");*/
+    padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/preview_icon.png")/*preview.jpg");/*mbr-1-1620x1080.jpg");*/
 }
 .cid-qIieWoha50 {
   padding-top: 60px;
@@ -1394,7 +1449,8 @@ body {
 .cid-qIifnNA7oY {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
+  background-image: url("../../../assets/images/plain_image.jpg")/*preview.jpg");/*mbr-1-1620x1080.jpg");*/
 }
 .cid-qIifnNA7oY .line {
   background-color: #232323;
@@ -1433,10 +1489,14 @@ body {
 .cid-qIicQ8Vcwz .mbr-section-subtitle {
   color: #ffffff;
 }
+.cid-qIix9MZdYF .mbr-section-title1 {
+  color: red;
+}
 .cid-qIihRCxHJF {
   padding-top: 60px;
   padding-bottom: 0px;
   background-color: #ffffff;
+  background-image: url("../../../assets/images/Plain_imageicon.jfif")/*preview.jpg");/*mbr-1-1620x1080.jpg");*/
 }
 .cid-qIihRCxHJF H2 {
   color: #232323;
@@ -1444,6 +1504,14 @@ body {
 .cid-qIihRCxHJF .mbr-section-subtitle {
   color: #232323;
 }
+.cid-qIihRCxHJF h3 {
+  
+   font-family: 'Tangerine';
+   color:blueviolet;
+   font-weight: bold;
+   font-size:4rem;
+}
+
 .cid-qIix9MZdYF {
   padding-top: 15px;
   padding-bottom: 90px;
@@ -1507,6 +1575,7 @@ body {
 .cid-qIiXmYb55q .google-map {
   height: 25rem;
   position: relative;
+  background-image: url("../../../assets/images/LocationImg.JPG")/*preview.jpg");/*mbr-1-1620x1080.jpg");*/
 }
 .cid-qIiXmYb55q .google-map iframe {
   height: 100%;
