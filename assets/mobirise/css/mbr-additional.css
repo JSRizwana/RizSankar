@@ -1500,8 +1500,9 @@ body {
   background-color: #ffffff;
   background-image: url("../../../assets/images/Plain_imageicon.jfif")/*preview.jpg");/*mbr-1-1620x1080.jpg");*/
 }
-.cid-qIihRCxHJF H2 {
+.cid-qIihRCxHJF H2,h4{
   color: #232323;
+  font-size:1.3rem;
 }
 .cid-qIihRCxHJF .mbr-section-subtitle {
   color: #232323;
@@ -1511,7 +1512,7 @@ body {
    font-family: 'Tangerine';
    color:blueviolet;
    font-weight: bold;
-   font-size:1.2rem;
+   font-size:1.3rem;
 }
 
 .cid-qIix9MZdYF {
