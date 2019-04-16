@@ -1484,7 +1484,12 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   background-image: url("../../../assets/images/mbr-1791x1080.jpg");
+  
 }
+.cid-qIihRCxHJF strong {   font-weight:bold;         
+  color: black;
+}
+
 .cid-qIicQ8Vcwz H2 {
   color: #ffffff;
 }
